@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Information</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+    <header>
+        <h1 class="sub-title">My Curriculum Information</h1>
+    </header>
+    <main>
+        <div class="container">
+            <label for="search">Search Courses:</label>
+            <input type="text" id="search" onkeyup="searchCourses()">
+        </div>
+        <div class="container">
+            <label for="level">Filter by Level:</label>
+            <select id="level" onchange="filterCourses()">
+                <option value="">All Levels</option>
+                <option value="01">Level 01</option>
+                <option value="02">Level 02</option>
+                <option value="03">Level 03</option>
+                <option value="04">Level 04</option>
+            </select>
+        </div>
+        <div class="container">
+            <label for="sort">Sort by Level:</label>
+            <select id="sort" onchange="sortCourses()">
+                <option value="asc">Lowest to Highest</option>
+                <option value="desc">Highest to Lowest</option>
+            </select>
+        </div>
+        <ul id="courses-list">
+        </ul>
+
+    </main>
+
+    <div><a href="index.html" class="btn">Homepage</a></div>
+    <div class="copyright">
+        <p>Copyright © Julie 2023</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

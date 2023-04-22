@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js"></script>
+</head>
+
+
+<body>
+    <!--about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images1/user.png" alt="user-image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>After working for several years as a project lead and business analyst, I have decided to make a
+                        transition into the
+                        role of a software engineer.<br>
+                        <br>
+                    </p>
+                    <p>At present, I am actively seeking opportunities to work in this
+                        field and utilize
+                        technology to solve problems for individuals. Please reach out if there’s anything I can do for
+                        you</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Java Development</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>HTML,CSS,JavaScript</li>
+                            <li><span>Database Development</span><br>SQL, MS Access, PHP</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - Current</span><br>Computer Programming Student | Algonquin College</li>
+                            <li><span>2021 - 2022</span><br>Compliance Specialist and SEA Project Coordinator | Zuellig
+                                Pharma
+                            </li>
+                            <li><span>2017 - 2019</span><br>Project Manager and Business Analysis | Roche VN</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 - Now</span><br> Computer Programming student | Algonquin College | Current
+                                GPA : 3.83/4.0 </li>
+                            <li><span>2010 - 2014</span><br>Commercial Business (English) | HCMC Open University</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--services/skills-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Developing a simple single static page of plain text to complex web applications,
+                        web games,
+                        and
+                        social
+                        network services</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>Java Development</h2>
+                    <p>Developing advanced software for a wide variety of network devices-embedded
+                        systems, business
+                        applications, websites and more.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>Database Development</h2>
+                    <p>Developing a database design by using database programming languages (MySQL, MS
+                        Access,Oracle
+                        SQL
+                        etc)</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>My detail courses</h2>
+                    <p>My detailed course that I should finished so far</p>
+                    <a href="courses.html">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images1/project1.jpg" alt="project-image1">
+                    <div class="layer">
+                        <h3>Bakery website</h3>
+                        <p>This website for Bakery with connect to another social network.
+                        </p>
+                        <a href="http://www.cakitchen.surge.sh/"><i class="fas fa-external-link-alt">>>></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images1/project2.jpg" alt="project-image2">
+                    <div class="layer">
+                        <h3>Flip cards game</h3>
+                        <p>This is a timed card memory game. When the game starts, all cards are turned
+                            face down.
+                            The player then flips over two cards, selecting them by clicking
+                            on them. </p>
+
+                        <a href="https://findingnemo.surge.sh/"><i class="fas fa-external-link-alt">>>></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images1/project3.jpg" alt="project-image3">
+                    <div class="layer">
+                        <h3>Drinking games</h3>
+                        <p>This game look like one-two-three or rock paper scissors game.
+                            Usually played between two people, in which each player randomly get point.
+                        </p>
+                        <a href="https://drinkinggame.surge.sh/"><i class="fas fa-external-link-alt">
+                                >>> </i></a>
+                    </div>
+                </div>
+            </div>
+            <!--contact-->
+            <div id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="sub-title">Contact Me</h1>
+                            <p><i class="fas fa-paper-plane"></i> julievo143@gmail.com</p>
+                            <p><i class="fas fa-phone-square-alt"></i> vo000077@algonquinlive.com</p>
+                            <p><i class="fas fa-phone-square-alt"></i> My current school : <a
+                                    href="https://www.algonquincollege.com/">Algonquin College</a></p>
+                        </div>
+
+                    </div>
+                </div>
+                <div><a href="index.html" class="btn">Homepage</a></div>
+                <div class="copyright">
+                    <p>Copyright © Julie 2023</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
